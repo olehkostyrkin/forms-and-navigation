@@ -1,0 +1,81 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    background-size: 100% 200%;
+}
+
+.stage-progress-bar {
+    margin-top: 2em;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.stage-point-active {
+    border: 10px solid paleturquoise;
+    border-radius: 10px;
+    box-shadow: 1px 0 10px lightgrey;
+}
+
+.stage-point {
+    border: 6px solid lightgray;
+    border-radius: 8px;
+}
+
+.stage-line-active {
+    width: 100%;
+    height: 3px;
+    background-color: paleturquoise;
+}
+
+.stage-line {
+    width: 100%;
+    height: 3px;
+    background-color: lightgray;
+}
+
+form {
+    min-width: 40%;
+    max-width: 30%;
+    padding: 2em;
+    box-shadow: 0 0 5px gray;
+}
+
+h1 {
+    margin: 1.5em;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+
+input {
+    width: 100%;
+    height: 3em;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding-left: 1em;
+   
+}
+
+input[type=date] {
+    
+}
+
+button {
+    background-color: paleturquoise;
+    margin: 2em;
+    padding: 1em 2em;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0 0 10px paleturquoise;
+    cursor: pointer;
+}
+
+
